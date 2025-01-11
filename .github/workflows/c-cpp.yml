@@ -17,3 +17,5 @@ jobs:
       run: mkdir build; cd build; cmake ..;
     - name: make
       run: cd build;make;
+    - name: execute
+      run: cd build;./fnctest;
